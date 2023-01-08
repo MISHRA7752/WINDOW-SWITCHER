@@ -38,7 +38,7 @@ document.addEventListener('keydown', function(e) {
         point = list.head;
         // will show  head
     }
-    if ((e.key === "b") && tabbable) {
+    if ((e.key === "b"||e.key === "B") && tabbable) {
         tab_switcher.hidden = false;
         let key = e.key; // store current pressed key.
         let dataSize = data.length; // store total size of data array
